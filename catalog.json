@@ -1,0 +1,15 @@
+{
+  "charts": {
+    "unpoller": {
+      "name": "unpoller",
+      "categories": ["metrics"],
+      "app_readme": "<p>Collect your UniFi controller data and report it to an InfluxDB instance, or export it for Prometheus collection.</p>",
+      "location": "/truenasapps/unpoller",
+      "healthy": true,
+      "healthy_error": null,
+      "latest_version": "1.0.0",
+      "latest_app_version": "2.7.11",
+      "latest_human_version": "2.7.11_1.0.0"
+    }
+  }
+}
