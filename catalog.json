@@ -1,5 +1,5 @@
 {
-  "charts": {
+  "stable": {
     "unpoller": {
       "name": "unpoller",
       "categories": ["metrics"],
