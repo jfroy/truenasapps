@@ -1,2 +1,21 @@
 {
+  "stable": {
+    "qbittorrentvue": {
+      "app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>VueTorrent is the sleekest looking WebUI for qBittorrent made with Vue.js!</p>",
+      "categories": ["media"],
+      "description": "qBittorrent is a cross-platform free and open-source BitTorrent client. VueTorrent is an alternative WebUI for qBittorrent.",
+      "healthy": true,
+      "healthy_error": null,
+      "location": "/home/runner/work/catalog/catalog/stable/qbittorrentvue",
+      "latest_version": "15.0.12",
+      "latest_app_version": "4.5.2",
+      "latest_human_version": "4.5.2_15.0.12",
+      "last_update": "2023-05-03 22:09:10",
+      "name": "qbittorrentvue",
+      "recommended": false,
+      "title": "qBittorrent with VueTorrent",
+      "maintainers": [],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
+    }
+  }
 }
