@@ -22,7 +22,7 @@ sources:
   - https://github.com/jfroy/truenasapps
   - https://github.com/hotio/qbittorrent/tree/release
 type: application
-version: 15.0.13
+version: 15.0.14
 annotations:
   truecharts.org/catagories: |
     - media
