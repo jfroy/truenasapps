@@ -17,5 +17,43 @@
       "maintainers": [],
       "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
     }
+  },
+  "incubator": {
+    "dockerregistry": {
+      "app_readme": "<p>Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/dockerregistry\">https://truecharts.org/charts/incubator/dockerregistry</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "categories": [
+          "Cloud",
+          "Network-Management",
+          "Productivity",
+          "Tools-Utilities"
+      ],
+      "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/\n",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://github.com/jfroy/truenasapps",
+      "location": "/home/runner/work/catalog/catalog/incubator/dockerregistry",
+      "latest_version": "2.0.12",
+      "latest_app_version": "2",
+      "latest_human_version": "2_2.0.12",
+      "last_update": "2023-07-30 04:41:29",
+      "name": "dockerregistry",
+      "recommended": false,
+      "title": "Dockerregistry",
+      "maintainers": [
+          {
+              "email": "jf@devklog.net",
+              "name": "Jean-Francois Roy",
+              "url": "https://github.com/jfroy/truenasapps"
+          }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+          "https://github.com/jfroy/truenasapps",
+          "https://github.com/distribution/distribution",
+          "https://registry.hub.docker.com/_/registry/"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/dockerregistry.png"
+    }
   }
 }
