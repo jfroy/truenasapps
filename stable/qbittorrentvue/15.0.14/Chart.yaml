@@ -1,11 +1,11 @@
 apiVersion: v2
-appVersion: "4.5.2"
+appVersion: "4.5.4"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 12.14.2
+    version: 12.15.0
 deprecated: false
-description: qBittorrent is a cross-platform free and open-source BitTorrent client. VueTorrent is an alternative WebUI for qBittorrent.
+description: qBittorrent is a cross-platform free and open-source BitTorrent client
 home: https://hotio.dev/containers/qbittorrent/
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png
 keywords:
@@ -22,7 +22,7 @@ sources:
   - https://github.com/jfroy/truenasapps
   - https://github.com/hotio/qbittorrent/tree/release
 type: application
-version: 15.0.14
+version: 15.0.30
 annotations:
   truecharts.org/catagories: |
     - media
