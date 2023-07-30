@@ -283,57 +283,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10095
-                              required: true
-        - variable: torrent
-          label: "Torrent Service"
-          description: "Torrent service"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable the Service
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: Service Type
-                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: LoadBalancer
-                  enum:
-                    - value: LoadBalancer
-                      description: LoadBalancer (Expose Ports)
-                    - value: ClusterIP
-                      description: ClusterIP (Do Not Expose Ports)
-              - variable: loadBalancerIP
-                label: LoadBalancer IP
-                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: torrent
-                      label: "TCP Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 6881
+                              default: 5000
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -563,9 +513,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+        - variable: datastoragepath
+          label: "datastoragepath Storage"
+          description: "This is where Docker Registry will store its data."
           schema:
             additional_attrs: true
             type: dict
@@ -1106,13 +1056,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID this App of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
