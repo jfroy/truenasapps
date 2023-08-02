@@ -1,7 +1,7 @@
 image:
   repository: cr.hotio.dev/hotio/qbittorrent
   pullPolicy: IfNotPresent
-  tag: release@sha256:1b0ad1822f6352bb82ee29b8a8caefc508b0b3446bca85a55d75d4fca49594bb
+  tag: release@sha256:33d7e8d27819a3afc5c4702160889c1624ebee7cfa0518fb3b3e09e743657642
 service:
   main:
     ports:
