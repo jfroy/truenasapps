@@ -3,7 +3,7 @@ appVersion: "4.5.4"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 12.15.0
+    version: 14.0.1
 deprecated: false
 description: qBittorrent is a cross-platform free and open-source BitTorrent client
 home: https://hotio.dev/containers/qbittorrent/
@@ -22,7 +22,7 @@ sources:
   - https://github.com/jfroy/truenasapps
   - https://github.com/hotio/qbittorrent/tree/release
 type: application
-version: 15.0.30
+version: 16.0.0
 annotations:
   truecharts.org/catagories: |
     - media
