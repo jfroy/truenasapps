@@ -1,4 +1,6 @@
 {
+  "charts": {},
+  "test": {},
   "stable": {
     "qbittorrentvue": {
       "app_readme": "<p>qBittorrent is a cross-platform free and open-source BitTorrent client</p>\n<p>VueTorrent is the sleekest looking WebUI for qBittorrent made with Vue.js!</p>",
