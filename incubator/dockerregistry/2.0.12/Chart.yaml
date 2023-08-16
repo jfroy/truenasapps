@@ -3,7 +3,7 @@ appVersion: "2"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
-    version: 12.15.0
+    version: 14.0.1
 deprecated: false
 description: "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/\n"
 home: https://truecharts.org/charts/incubator/dockerregistry
