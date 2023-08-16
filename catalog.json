@@ -15,8 +15,20 @@
       "name": "qbittorrentvue",
       "recommended": false,
       "title": "qBittorrent with VueTorrent",
-      "maintainers": [],
-      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
+      "maintainers": [
+        {
+            "email": "jf@devklog.net",
+            "name": "Jean-Francois Roy",
+            "url": "https://github.com/jfroy/truenasapps"
+        }
+    ],
+    "tags": [],
+    "screenshots": [],
+    "sources": [
+        "https://github.com/jfroy/truenasapps",
+        "https://hotio.dev/containers/qbittorrent/"
+    ],
+    "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
     }
   },
   "incubator": {
