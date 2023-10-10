@@ -29,18 +29,50 @@
         "https://hotio.dev/containers/qbittorrent/"
     ],
     "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png"
+    },
+    "stash": {
+      "app_readme": "<p>An organizer for your porn, written in Go</p>",
+      "categories": [
+          "media"
+      ],
+      "description": "An organizer for your porn, written in Go",
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://truecharts.org/charts/stable/stash",
+      "location": "/home/runner/work/catalog/catalog/stable/stash",
+      "latest_version": "12.0.3",
+      "latest_app_version": "0.22.1",
+      "latest_human_version": "0.22.1_12.0.3",
+      "last_update": "2023-10-10 14:42:18",
+      "name": "stash",
+      "recommended": false,
+      "title": "Stash",
+      "maintainers": [
+        {
+            "email": "jf@devklog.net",
+            "name": "Jean-Francois Roy",
+            "url": "https://github.com/jfroy/truenasapps"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+          "https://github.com/truecharts/charts/tree/master/charts/stable/stash",
+          "https://github.com/stashapp/stash"
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/stash.png"
     }
   },
   "incubator": {
     "dockerregistry": {
-      "app_readme": "<p>Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/dockerregistry\">https://truecharts.org/charts/incubator/dockerregistry</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+      "app_readme": "<p>Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/</p>",
       "categories": [
           "Cloud",
           "Network-Management",
           "Productivity",
           "Tools-Utilities"
       ],
-      "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/\n",
+      "description": "Docker Registry is used to store and distribute Docker images using HTTP API. This allows you host your own private Registry and store your images. Uses official Chart Registry image @ https://hub.Chart.com/_/registry/",
       "healthy": true,
       "healthy_error": null,
       "home": "https://github.com/jfroy/truenasapps",
