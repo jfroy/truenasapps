@@ -1,0 +1,31 @@
+image:
+  repository: ghcr.io/hotio/qbittorrent
+  pullPolicy: IfNotPresent
+  tag: release-4.6.2@sha256:6763d703790bb6beca7566fbd8610d8c878cfb1f0e5c71a564d9675725664946
+service:
+  main:
+    ports:
+      main:
+        port: 10095
+        targetPort: 8080
+  torrent:
+    enabled: true
+    ports:
+      torrent:
+        enabled: true
+        port: 6881
+        protocol: tcp
+      torrentudp:
+        enabled: true
+        port: "{{ .Values.service.torrent.ports.torrent.port }}"
+        protocol: udp
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
