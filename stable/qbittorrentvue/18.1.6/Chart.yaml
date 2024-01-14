@@ -1,6 +1,6 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: qbittorrent
+name: qbittorrentvue
 version: 18.1.6
 appVersion: 4.6.2
 description: qBittorrent is a cross-platform free and open-source BitTorrent client. VueTorrent is an alternative WebUI for qBittorrent.
