@@ -3,8 +3,8 @@ apiVersion: v2
 name: qbittorrent
 version: 18.1.6
 appVersion: 4.6.2
-description: qBittorrent is a cross-platform free and open-source BitTorrent client
-home: https://hotio.dev/containers/qbittorrent/
+description: qBittorrent is a cross-platform free and open-source BitTorrent client. VueTorrent is an alternative WebUI for qBittorrent.
+home: https://hotio.dev/containers/qbittorrent
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png
 deprecated: false
 sources:
